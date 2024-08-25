@@ -1,0 +1,294 @@
+@extends('templates.base')
+
+@section('content')
+    <section class="basic">
+        <div id="app" class="container" bis_skin_checked="1">
+            <h1>Cookies Policy</h1>
+            <h3>Introduction</h3>
+            <p>This website (hereinafter called the “<strong>Website</strong>”) is owned and operated by <strong>Education Era
+                    Ltd</strong>, a company duly registered under the laws of Seychelles, with registered number
+                <strong>14970274</strong>, having its registered office at  124-128 City Road, London, England, EC1V 2NX (hereinafter the “<strong>Company</strong>”).<br>
+                The Company values the privacy of every visitor on the website and takes great effort in maintaining the
+                privacy and the security of each website’s visitor by providing the required security. The provisions of
+                this Cookies Policy (the “<strong>Policy</strong>”) apply to all visitors of the Company’s website and it
+                refers only to cookies.</p>
+            <p>For more information in relation to the collection, processing and protection of your personal data, as well
+                as information regarding your rights, please refer to our <a
+                    href="{{ route('legal.privacy') }}" target="_blank">Privacy Policy</a>, which is available on the Website.</p>
+            <p>We reserve the right to update this Policy at any time, and we will provide you with a new data protection
+                policy when we make any substantial updates. We may also notify you in other ways from time to time about
+                the processing of your personal information.</p>
+            <h3>What are Cookies</h3>
+            <p ⠀ class="western">Cookies are a kind of short-term memory which is stored in a visitor’s and/or
+                client’s browser and enables Services to 'remember' little bits of information between pages or visits. Some
+                of the purposes of installation of Cookies or similar applications may also require the separate consent
+                from you.</p>
+            <h3>What type of cookies do we use?</h3>
+            <p ⠀ class="western">There are several types of cookies, including inter alia, strictly necessary
+                cookies which are essential to enable navigation through the website, performance which are used to improve
+                use of the website, functionality cookies which are used to remember changes in choices a user requested. We
+                only use strictly necessary cookies on the website. Please see on the below table all cookies used on the
+                website.</p>
+            <p>&nbsp;</p>
+            <table width="80%" cellspacing="0" cellpadding="1"
+                   style="border: 1px solid rgb(44, 44, 44); border-collapse: collapse;">
+                <thead>
+                <tr>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;"><strong>Cookie Name</strong></p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;"><strong>Purpose</strong></p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;"><strong>Duration</strong></p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;"><strong>Cookie Type</strong></p>
+                    </td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">PHPSESSID</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">native to PHP and enables websites to store serialised
+                            state data</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Session</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">__stripe_mid</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">cookies as an element of the security measures used to
+                            protect user accounts, including preventing fraudulent use of login credentials, and to
+                            protect our website and services generally</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">12 months</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">__stripe_sid</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">store information about your preferences and to
+                            personalise our website for you</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">30 minutes</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">cookie_notice_accepted</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">read if cookies can be placed.</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">1 month</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">dsp</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Used to track the latest DSP the user same from.</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">3 hours</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">externalParams</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Used to track any external parameters set by third
+                            party integrations or any other data not being tracked in any other way.</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">3 hours</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">f</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Used to track the latest funnel the user came from.</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">3 hours</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">uf</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Used to track the unknown funnel the user came from.
+                        </p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">3 hours</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">uuid</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Stores a universally unique identifier (UUID) allowing
+                            the tracking of the same visitor across multiple pages and sessions</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">730 days</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">woocommerce_cart_hash</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Helps WooCommerce determine when cart contents/data
+                            changes.</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Session</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">woocommerce_items_in_cart</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Helps WooCommerce determine when cart contents/data
+                            changes.</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Session</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">wordpress_logged_in_{UID}</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Remember User session</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Session</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">wordpress_sec_{UID}</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">This cookie is used to store your authentication
+                            details. Its use is limited to the admin console area, /wp-admin/</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Session</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">wp_woocommerce_session_{UID}</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Contains a unique code for each customer so that it
+                            knows where to find the cart data in the database for each customer.</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">2 days</p>
+                    </td>
+                    <td style="border: 1px solid rgb(44, 44, 44);">
+                        <p align="center" style="padding: 10px;">Essential</p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p>&nbsp;</p>
+            <p ⠀ class="western">The abovementioned cookies can also be described as technical cookies and
+                cookies serving aggregated statistical purposes. These cookies are essential to ensure that you can navigate
+                and use certain functions of the website. Without them, essential parts of the website cannot be used.
+                Accordingly, these cookies are always activated. They are only used when you visit our website and are
+                usually deleted when you close your browser or following the duration mentioned on the table above. They are
+                also used to call up the optimised website display when accessed with a mobile device so that, for example,
+                your data volume is not unnecessarily consumed.</p>
+            <h3>Consent to Cookies</h3>
+            <p ⠀ class="western">Provided that the cookies used on the website are only essential for the
+                website to function, there is no reason to require your consent. If for whatever reason you do not wish to
+                receive cookies, you should stop using the website and you can proceed to change the settings of your
+                internet browser or mobile device to refuse all cookies or contact us at <a
+                    href="mailto:privacy@edutradinginshights.com">privacy@edutradinginshights.com</a>.</p>
+            <h3>Use of Cookies</h3>
+            <p ⠀ class="western">As mentioned above, the Company uses cookies to enable it to provide you with
+                a better experience in using our website. If you do not wish to receive cookies, you may be able to change
+                the settings of the browser or mobile device to refuse all cookies or to receive notification each time a
+                cookie is sent, thereby giving the choice whether to accept it or not. However, this may impair the quality
+                of the experience in using the website.</p>
+            <h3>How can you manage the installation of Cookies?</h3>
+            <p ⠀ class="western">You can control and/or delete cookies as you wish directly from within your
+                own internet browser or mobile device and prevent – for example – third parties from installing them. You
+                can delete all cookies that are already on your computer, and you can set most browsers to prevent them from
+                being placed. If you do this, however, you may have to manually adjust some preferences every time you visit
+                a site and some services and functionalities may not work. It is important to note that by disabling all
+                Cookies, the functioning of the Services may be compromised. For further information about cookies and how
+                to disable them, please refer to <a href="http://www.allaboutcookies.org" target="_blank">www.allaboutcookies.org</a>.</p>
+            <h3>CONTACT US</h3>
+            <p>Should you require any further clarification regarding this Cookies Policy, please contact us at <a
+                    href="mailto:privacy@edutradinginshights.com">privacy@edutradinginshights.com</a>.</p>
+        </div>
+    </section>
+@endsection
