@@ -614,10 +614,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 </head>
-<body class="home page-template page-template-template-parts page-template-homepage page-template-template-partshomepage-php page page-id-2 wp-custom-logo theme-learn3 cookies-not-set woocommerce-js translatepress-en_US no-sidebar">
-<div class="center" style="visibility: hidden; opacity: 0; display: block;">
-    <div id="loader"></div>
-</div>
+
 
 <x-header></x-header>
 

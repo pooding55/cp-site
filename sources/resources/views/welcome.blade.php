@@ -52,7 +52,7 @@
             <h2>Examples of Courses</h2>
             <div class="resources__wrapper row cards" style="margin-bottom: 3rem;">
                 <div class="resources__wrapper-card card-2 bg1">
-                    <a href="how-forex-brokers-work.php">
+                    <a href="{{ route('how-forex-brokers-work') }}">
                         <img src="{{ Storage::url('images/course11.png') }}" alt="How Do Forex Brokers Work?">
                         <div class="list">
                             <p class="title">How Do Forex Brokers Work?</p>
@@ -61,7 +61,7 @@
                     </a>
                 </div>
                 <div class="resources__wrapper-card card-2 bg2">
-                    <a href="what-is-forex.php">
+                    <a href="{{ route('what-is-forex') }}">
                         <img src="{{ Storage::url('images/course22.png') }}" alt="What is Forex?">
                         <div class="list">
                             <p class="title">What is Forex?</p>
@@ -70,7 +70,7 @@
                     </a>
                 </div>
                 <div class="resources__wrapper-card card-2 bg3">
-                    <a href="chart-patterns-schmatterns.php">
+                    <a href="{{ route('chart-patterns-schmatterns') }}">
                         <img src="{{ Storage::url('images/course33.png') }}" alt="How to Trade Chart Patterns">
                         <div class="list">
                             <p class="title">How to Trade Chart Patterns</p>
@@ -81,7 +81,7 @@
             </div>
             <div class="resources__wrapper row cards">
                 <div class="resources__wrapper-card card-2 bg4">
-                    <a href="relative-strength-index.php">
+                    <a href="{{ route('relative-strength-index') }}">
                         <img src="{{ Storage::url('images/course44.png') }}" alt="How to Use RSI (Relative Strength Index)">
                         <div class="list">
                             <p class="title">How to Use RSI (Relative Strength Index)</p>
@@ -90,7 +90,7 @@
                     </a>
                 </div>
                 <div class="resources__wrapper-card card-2 bg5">
-                    <a href="ways-to-measure-volatility.php">
+                    <a href="{{ route('ways-to-measure-volatility') }}">
                         <img src="{{ Storage::url('images/course55.png') }}" alt="How to Measure Volatility">
                         <div class="list">
                             <p class="title">How to Measure Volatility</p>
@@ -99,7 +99,7 @@
                     </a>
                 </div>
                 <div class="resources__wrapper-card card-2 bg6">
-                    <a href="make-money-trading-forex.php">
+                    <a href="{{ route('make-money-trading-forex') }}">
                         <img src="{{ Storage::url('images/course66.png') }}" alt="How to Make Money Trading Forex">
                         <div class="list">
                             <p class="title">How to Make Money Trading Forex</p>

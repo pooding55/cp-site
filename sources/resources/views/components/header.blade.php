@@ -9,20 +9,20 @@
             </button>
             <ul id="menu-header" class="topmenu">
                 <li id="menu-item-60" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-60">
-                    <a href="{{ route('about') }}" aria-current="page">About Us</a>
+                    <a href="{{ route('about') }}" aria-current="page">{{ __('header.about_us') }}</a>
                 </li>
                 <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-61">
-                    <a href="{{ route('courses') }}" aria-current="page">Courses</a>
+                    <a href="{{ route('courses') }}" aria-current="page">{{ __('header.courses') }}</a>
                 </li>
                 <li id="menu-item-62" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-62">
-                    <a href="{{ route('packages') }}" aria-current="page">Packages</a>
+                    <a href="{{ route('packages') }}" aria-current="page">{{ __('header.packages') }}</a>
                 </li>
                 <li id="menu-item-63" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-63">
-                    <a href="{{ route('home') }}/#testimonials" aria-current="page">Testimonials</a>
+                    <a href="{{ route('home') }}/#testimonials" aria-current="page">{{ __('header.testimonials') }}</a>
                 </li>
 
                 <li id="menu-item-62" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-62">
-                    <a href="{{ route('news.index') }}" aria-current="page">Financial news</a>
+                    <a href="{{ route('news.index') }}" aria-current="page">{{ __('header.news') }}</a>
                 </li>
             </ul>
         </div>
@@ -32,12 +32,15 @@
             </button>
             <ul id="menu-um-nav" class="students">
                 <li id="menu-item-2200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2200">
-                    <a class="scrolll" href="{{ route('home') }}/#">Student Login</a>
+                    <a class="scrolll" href="{{ route('home') }}/#">{{ __('header.login') }}</a>
                 </li>
                 <li id="menu-item-783" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-783">
-                    <a href="{{ route('packages') }}" aria-current="page">Buy Package</a>
+                    <a href="{{ route('packages') }}" aria-current="page">{{ __('header.buy') }}</a>
                 </li>
             </ul>
+            <div style="margin-left: 15px">
+                <x-language-switcher></x-language-switcher>
+            </div>
         </div>
         <button id="menu" class="menu">
             <img src="{{ Storage::url('images/menu.svg') }}" alt="Menu button">
