@@ -16,9 +16,7 @@
                     </ul>
                 </div>
                 <div class="cards__wrapper mobile">
-                    <img src="{{ Storage::url('images/mastercard.svg') }}" alt="Mastercard">
-                    <img src="{{ Storage::url('images/visa.svg') }}" alt="Visa">
-                    <img src="{{ Storage::url('images/ae.svg') }}" alt="American Express">
+                    <img src="{{ Storage::url('images/l6c.png') }}" class="" alt="Edutrading" decoding="async">
                 </div>
             </div>
             <div class="footerText">

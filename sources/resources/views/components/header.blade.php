@@ -38,7 +38,7 @@
                     <a href="{{ route('packages') }}" aria-current="page">{{ __('header.buy') }}</a>
                 </li>
             </ul>
-            <div style="margin-left: 15px">
+            <div style="margin-left: 15px" class="lang-switch">
                 <x-language-switcher></x-language-switcher>
             </div>
         </div>
@@ -46,4 +46,12 @@
             <img src="{{ Storage::url('images/menu.svg') }}" alt="Menu button">
         </button>
     </div>
+
+    <style>
+        @media (max-width: 640px) {
+         .lang-switch {
+             margin-left: 95px !important;
+         }
+        }
+    </style>
 </header>
